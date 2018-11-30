@@ -1,7 +1,5 @@
 FROM node:6-jessie
 LABEL "MAINTAINER" "danny@sotzny.de"
-ENV http_proxy=http://10.10.0.250:8080
-ENV https_proxy=http://10.10.0.250:8080
 
 RUN apt-get update \   
     && apt-get install -y git screen curl
