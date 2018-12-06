@@ -17,3 +17,6 @@ and then start like this:
 
 `screen` will start the mongoDB in an extra terminal and with wait-for-it your App will start if the port is open. In my Example a node app `yourApp.js`
 btw: my App is located in `/app`
+
+## special Branch ret
+here i install mono and the  poppler-utils additional
